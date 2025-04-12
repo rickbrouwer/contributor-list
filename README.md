@@ -1,5 +1,5 @@
 # Git Release Contribution Analyzer
-Open-source projects are only as successful as the community that drives them. To show your appreciation to essential members of your community, you can recognize them by issuing Credly badges.  
+Open-source projects are only as successful as the community that drives them. To show your appreciation to essential members of your community, you can recognize them — for example, by issuing Credly badges.  
 This Go script analyzes contributions to a Git repository by counting the number of commits per author in the last few releases. It identifies contributors who meet a specified threshold of commits across multiple releases.
 
 ## Features
@@ -14,6 +14,7 @@ You can modify the following constants at the top of the script to adjust the an
 NUM_RELEASES: Number of latest releases to analyze.  
 MIN_RELEASES: Minimum number of releases an author must have contributed to.  
 NUM_COMMITS: Minimum number of commits required per release.  
+SHOW_RECENT_QUALIFIERS: Show only authors who just met the MIN_RELEASES criteria in the latest release (true/false).
 
 ## Usage
 Run the script in a cloned Git repository:
